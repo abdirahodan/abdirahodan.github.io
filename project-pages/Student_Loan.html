@@ -74,22 +74,9 @@
 
         <div class="body-text">In this project, we delve into the complex dynamics of student loan debt and its impact on different racial groups. Student loan debt has become a significant concern in today's society, affecting millions of individuals striving for higher education. However, it is crucial to recognize that the burden of student loans may not be evenly distributed among racial groups.</div>
        
-	<div class="body-text">Throughout this analysis, we will leverage the capabilities of R to explore and visualize the data, aiming to uncover patterns and trends related to student loan debt among different racial groups. </div>
-	</code></pre></div><pre><code>## # A tibble: 30 x 4
-##     year race     loan_debt loan_debt_pct
-##    &lt;dbl&gt; &lt;chr&gt;        &lt;dbl&gt;         &lt;dbl&gt;
-##  1  2016 White       11108.         0.337
-##  2  2016 Black       14225.         0.418
-##  3  2016 Hispanic     7494.         0.219
-##  4  2013 White        8364.         0.285
-##  5  2013 Black       10303.         0.412
-##  6  2013 Hispanic     3177.         0.157
-##  7  2010 White        8042.         0.280
-##  8  2010 Black        9510.         0.321
-##  9  2010 Hispanic     3089.         0.144
-## 10  2007 White        5264.         0.197
-## # … with 20 more rows
-</code>
+	<div class="body-text">Throughout this analysis, we will leverage the capabilities of R to explore and visualize the data, aiming to uncover patterns and trends related to student loan debt among different racial groups.</div>
+	<div class="body-text">Since the <a href="https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-02-09/student_debt.csv">dataset</a> is quite small, it is simple to create a visualization that helps in better comprehending the information it contains.</div>
+	      
  <div class="subheader-text">How does the average student loan debt vary across different races?</div> 
 	 <div class="gallery-image-container half-width">
               <img src="../assets/images/pic1.png" class="gallery-image">
@@ -122,11 +109,9 @@
 <div class="subheader-text">Conclusion</div> 
 		<div class="body-text">If we had access to more information about income and other details in the data, we could have discovered some important insights about student loan debt and racial groups. Here are the main findings we could have uncovered:</div>
 		<div class="body-text">Firstly, we could have calculated and compared the percentage of income that individuals from each racial group spend on repaying their student loan debt. This analysis would have shown us how much financial strain different racial groups experience and how much of their income goes towards paying off their loans.</div>
-		<div class="body-text">Secondly, by examining the loan debt-to-income ratio for each racial group, we could have identified any disparities in the level of debt relative to income. This ratio would have helped us understand whether certain groups are more burdened by student loan debt compared to others.
-
-  </div>
-		<div class="body-text">  </div>
-		<div class="body-text">  </div>
+		<div class="body-text">Secondly, by examining the loan debt-to-income ratio for each racial group, we could have identified any disparities in the level of debt relative to income. This ratio would have helped us understand whether certain groups are more burdened by student loan debt compared to others.</div>
+		<div class="body-text"> Additionally, analyzing the variations in loan debt burden among racial groups based on educational attainment levels would have been valuable. We could have determined if there are differences in the level of student loan debt for individuals of different races, even after taking into account their educational achievements.</div>
+		<div class="body-text">These additional analyses would have provided a deeper understanding of the relationship between race, income, educational attainment, and the burden of student loan debt. This knowledge would be crucial in identifying disparities, developing targeted interventions, and advocating for policies that ensure equal access to education and reduce the financial challenges faced by specific racial groups.</div>
 		
 <div class="subheader-text">Source</div> 
 
@@ -134,65 +119,6 @@
 		<div class="body-text">  </div>
 	     	
       </div>
-
-      <!-- PROJECT DETAILS -->
-      <!-- 
-        TODO
-
-        - Change the 'subheader-text' to whatever header you want for project details
-        - Add paragraphs using the <div class="body-text"></div> elements in the "project-details-content"
-      -->
-      <div id="project-details">
-        <div class="subheader-text">Project Details / Background</div>
-        <div class="project-details-content">
-          <div class="body-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tristique risus nec feugiat in fermentum. Sed id semper risus in hendrerit gravida. Placerat duis ultricies lacus sed. Id neque aliquam vestibulum morbi blandit cursus risus. Elit pellentesque habitant morbi tristique senectus et netus et. Elementum tempus egestas sed sed risus pretium quam. Nibh ipsum consequat nisl vel pretium lectus quam id leo. Vitae congue mauris rhoncus aenean vel elit.</div>
-          <div class="body-text">Vitae justo eget magna fermentum. Imperdiet nulla malesuada pellentesque elit eget gravida. Aliquet nec ullamcorper sit amet. Aliquet sagittis id consectetur purus. Ac tortor dignissim convallis aenean. Enim neque volutpat ac tincidunt vitae. Lobortis feugiat vivamus at augue. Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper. Viverra orci sagittis eu volutpat. Massa tincidunt nunc pulvinar sapien et ligula. Donec enim diam vulputate ut.</div>
-        </div>
-      </div>
-
-      <!-- IMAGE GALLERY -->
-      <div id="project-gallery">
-        <!-- TODO - Change the 'subheader-text' to whatever you want the Gallery section header to say -->
-        <div class="subheader-text">Image Gallery</div>
-        <div class="project-gallery-content">
-            <!-- 
-              TODO
-
-              This is where the images in the gallery live. Here's a simple gallery image for you to copy:
-
-              Full Width Image:
-
-                <div class="gallery-image-container">
-                  <img src="../assets/images/IMAGE_NAME" class="gallery-image">
-                  <span class="image-caption">IMAGE_CAPTION</span>
-                </div>
-
-              Half Width Image: 
-
-                <div class="gallery-image-container half-width">
-                  <img src="../assets/images/IMAGE_NAME" class="gallery-image">
-                  <span class="image-caption">IMAGE_CAPTION</span>
-                </div>
-
-              - To add an image to the this area, copy one of the above, paste it below this comment, and change the following:
-                  - IMAGE_NAME: the name of the image file in assets/images
-                  - IMAGE_CAPTION: to the caption of the image
-            -->
-            <div class="gallery-image-container half-width">
-              <img src="../assets/images/code.jpeg" class="gallery-image">
-              <span class="image-caption">Give your image a caption. People love context.</span>
-            </div>
-            <div class="gallery-image-container half-width">
-              <img src="../assets/images/sketchbook.jpeg" class="gallery-image">
-              <span class="image-caption">Give your image a caption. People love context.</span>
-            </div>
-            <div class="gallery-image-container">
-              <img src="../assets/images/camera.jpeg" class="gallery-image">
-              <span class="image-caption">Give your image a caption. People love context.</span>
-            </div>
-        </div>
-      </div>
-    </div>
 
     <!-- FOOTER -->
     <div id="footer">
