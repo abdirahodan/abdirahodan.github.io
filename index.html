@@ -1,113 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
 
-    <!-- 
-      TODO
-
-      Upload your Unemployable (or whatever photo you like) to the assets/images folder
-      and change the name of the image below to match the uploaded one
-
-      Change the title in the <title> tag to whatever you would like the title of your portfolio to be
-
-      This should be the same across all pages.
-     -->
-  	<link rel="icon" href="../assets/images/lala1.png" />
-		<title>Hodan Abdirahman</title>
-    <meta name="description" content="A portfolio template for the Unemployables community.">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-		<link rel="stylesheet" href="./css/layout.css">
-    <link rel="stylesheet" href="./css/typography.css">
-    <link rel="stylesheet" href="./css/utilities.css">
-
-		<script defer src="./js/script.js"></script>
-	</head>
-	 <!-- Google Tag Manager -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-5BB8W2X');</script>
-  <!-- End Google Tag Manager -->
-  <link rel="icon" type="image/png" href="/favicon.png"/>
+<head>
   <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <link rel="icon" href="./assets/images/devlogo.png" />
+  <title>Gilda Perretta / Portfolio </title>
+  <meta name="description" content="A Computer Engineering graduate, interested in software engineering
+    and software/app development, strongly passionate about innovations, digital transformation, multimedia and AI.">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <title>Personal Portfolio</title>
-  <meta content="" name="descriptison">
-  <meta content="" name="keywords">
+  <link rel="stylesheet" href="./css/layout.css">
+  <link rel="stylesheet" href="./css/typography.css">
+  <link rel="stylesheet" href="./css/utilities.css">
 
-  <!-- Google Fonts -->
-	<body>
-    <!-- NAVBAR -->
-    <div class="navbar">
-      <a class="nav-title-link" href="./index.html">
-        <!-- TODO - Change the "Portfolio Title" to whatever you want displayed in the top left -->
-        <span class="nav-title">Analytics Aspirations</span>
-         <!-- TODO - Change the email after 'mailto:' to your email address for contact -->
-        <a class="button" href="mailto:abdirahodan@gmail.com">
-          <span class="button-text">Contact Me</span>
-        </a>
+  <script defer src="./js/script.js"></script>
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <div class="navbar">
+    <a class="nav-title-link" href="./index.html">
+      <span class="nav-title">Data Analyst</span>
+      <!--
+      <a class="button" href="mailto:abdirahodan@gmail.com">
+        <image src="./assets/icons/mail.svg">
       </a>
+      -->
+    </a>
+  </div>
+
+  <!-- MAIN PAGE CONTENT -->
+  <div id="main-content">
+
+    <!-- PORTFOLIO HEADER -->
+    <div align="center" id="portfolio-header">
+      <div id="portfolio-header-text-container">
+        <div class="header-text">
+          <span class="main-title">Hodan Abdirahman</span>
+          <div class="body-text"><br>Endless Learner.
+            Statistician Aspiring Data Analyst.<br><br><br><br>
+          </div>
+		<a class="icon-link" target="_blank" href="https://github.com/abdirahodan">
+		        <image src="./assets/icons/github-circ.svg" class="footer-icon"/>
+		      </a>
+	      <a class="icon-link" target="_blank" href="https://www.linkedin.com/in/hodan-abdirahman-169a611aa/">
+	        <image src="./assets/icons/linkedin-circ.svg" class="footer-icon"/>
+	      </a>
+	      <a class="icon-link" href="mailto:abdirahodan@gmail.com">
+	        <image src="./assets/icons/mail-circ.svg" class="footer-icon"/>
+	      </a>
+          <div class="body-text"><br>
+          </div>
+          <div align="center">
+            <a  class="button" id="my-work-link">
+              <span class="button-text">Check out my projects</span>
+              <image src="./assets/icons/arrow-down.svg" class="arrow-icon" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+
+    <!-- ABOUT SECTION -->
+    <div id="about-section">
+      <span class="subheader-text">About Me</span>
+      <div class="about-section-content">
+        <div class="body-text">As I've always been driven by a strong curiosity
+          about everything
+          that's innovative and tech-related, I've started my journey in tech and development by studying Computer Engineering, 
+          which nurtured my passion and later led me to enroll in the Apple Developer Academy.
+          <br><br>At the Academy, I’ve further
+          improved my development skills
+          by
+          using a newly learning-by-doing approach, enhanced my soft skills by working in multiple teams and 
+          had the chance to work for delivering human-centered solutions by having a new perspective about what's behind a tech product and its goals.
+          <br><br>In addition, I’m also a freelance software tester every now and again, where I've been able to
+          explore mobile, web and desktop products to detect bugs and failures in the work-flow/user-flow, 
+          which was extremely useful in the testing phase of app development and even way before in the process - while prototyping.
+          <br><br>As an endless learner, I'm eager to further broaden my perspective and knowledge and ready for new challenges to keep growing.
+        </div>
+        <a class="button" href="./cvpage.html">
+          <span class="button-text">More about me</span>
+          <image src="./assets/icons/arrow-right.svg" class="arrow-icon" />
+        </a>
+      </div>
     </div>
 
-    <!-- MAIN PAGE CONTENT -->
-    <div id="main-content">
-
-      <!-- PORTFOLIO HEADER -->
-      <div id="portfolio-header">
-        <div id="portfolio-header-image-container">
-          <!-- 
-            TODO
-
-            - Change the img "src" attribute to point to the Unemployable image you uploaded (or whatever image).
-            - Change the number to point to your Unemployable & replace the OpenSea link with your own
-            - If you aren't using an Unemployable as your image, remove the entire "a" element
-          -->
-	 <img src="./assets/images/kjyjualr.png" class="portfolio-header-image">
-	<span class="subheader-text" style="color: #c2a3e0;">Data Analysis - Visualization - Storytelling | R | Statistical Analysis</span>
-          </a>
-        </div>
-
-          <!-- 
-            TODO
-
-            - Change the main-title to whatver you want
-            - Change the body-text after that to a quick introduction to what you do
-            - Edit the button text if you feel like it. It will link to the projects section below.
-          -->
-        <div id="portfolio-header-text-container">
-            <div class="header-text">
-              <span class="main-title">Hello, I'm Hodan.</span>
-              <div class="body-text">I am currently pursuing a major in Economics with Data Science and I am deeply passionate about all things related to data. I strongly believe that data is the key to unlocking solutions to some of the world's most complex problems and that it has the power to revolutionize the way we live and work.</div>
-            </div>
-            <a class="button" id="my-work-link">
-              <span class="button-text">Check out my projects</span> 
-              <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>
-            </a>
-        </div>
-      </div>
-
-      <!-- ABOUT SECTION -->
-      <!-- 
-        TODO
-
-        - Change the subheader-text to whatever header you want
-        - Add paragraphs using the <div class="body-text"></div> elements in the "about-section-content"
-      -->
-      <div id="about-section">
-        <span class="subheader-text">My Background / About Me</span>
-        <div class="about-section-content">
-          <div class="body-text">I am passionate about using data to drive strategic business insights. My economics studies have equipped me with critical thinking abilities to analyze markets and identify impactful trends.Complementing this, my data science coursework has provided me with technical skills in statistical modeling, data mining, and analytics. I aspire to apply this blended expertise to help enterprises solve complex challenges and optimize key decisions. In my free time, I enjoy staying active by running, reading to expand my knowledge, and spending quality time with my family. I am driven to continuously grow as a data scientist and am excited to leverage my diverse background to create value for organizations through data-based solutions.
-
-</div>
-          <div class=""</div>
-        </div>
-      </div>
-	    
-      <!-- PROJECTS / MY WORK SECTION -->
+       <!-- PROJECTS / MY WORK SECTION -->
       <div id="my-work-section">
         <!-- TODO - Change the subheader-text to whatever you want the Projects section header to say -->
         <span class="subheader-text">My Work / My Projects</span>
@@ -234,33 +214,11 @@ services through data-driven storytelling.
       </div>
     </div>
 
-    <!-- FOOTER -->
-    <div id="footer">
-      <!-- 
-        TODO - Change href to your Instagram account (can also delete entire "a" element if no Instagram) 
+  </div>
+  </div>
+  </div>
+  </div>
 
-        This should be the same across all pages.
-      -->
-      <a class="icon-link" target="_blank" href="https://github.com/abdirahodan">
-        <image src="./assets/icons/github-circ.svg" class="footer-icon"/>
-      </a>
-      <!-- 
-        TODO - Change href to your Twitter account (can also delete entire "a" element if no Twitter) 
-      
-        This should be the same across all pages.
-      -->
-      <a class="icon-link" target="_blank" href="https://www.linkedin.com/in/hodan-abdirahman-169a611aa/">
-        <image src="./assets/icons/linkedin-circ.svg" class="footer-icon"/>
-      </a>
-      <!-- 
-        TODO - Change the email after "mailto" to your contact email 
-      
-        This should be the same across all pages.
-      -->
-      <a class="icon-link" href="mailto:abdirahodan@gmail.com">
-        <image src="./assets/icons/mail-circ.svg" class="footer-icon"/>
-      </a>
-    </div>
+</body>
 
-	</body>
 </html>
